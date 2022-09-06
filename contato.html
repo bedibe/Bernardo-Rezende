@@ -3,37 +3,47 @@
 <head>
     <title>Formulário HTML</title>
     <meta charset="utf-8"/>
-    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
 </head>
 <body>
     <form action="exibir-dados.php" class="formulario" method="post"> 
-        <p> Envie uma mensagem preenchendo o formulário abaixo</p>
+        <p class="bb"> Envie uma mensagem preenchendo o formulário abaixo</p>
         
         <div class="field">
+            <p class="bb">
             <label for="nome">Seu Nome:</label>
             <input type="text" id="nome" name="nome" placeholder="Digite seu nome*" required>
+            </p>
         </div>
         
         <div class="field">
+            <p class="bb">
             <label for="telefone">Seu Telefone:</label>
             <input type="text" id="telefone" name="telefone" placeholder="Digite seu Telefone">
+            </p>
         </div>
 
         <div class="field">
+            <p class="bb">
             <label for="email">Seu E-Mail:</label>
             <input type="email" id="email" name="email" placeholder="Digite seu E-Mail*" required>
+            </p>
         </div>        
-        <div class="field radiobox">
-            <span>Deseja receber nossas novidades?</span>
-            <input type="radio" name="novidades" id="sim" value="sim" checked><label for="sim">Sim</label>
-            <input type="radio" name="novidades" id="nao" value="nao"><label for="nao">Não</label>
+        <div class="field">
+            <p class="bb">
+            <form> Data de nascimento: <input type="date" name="nascimento"></form>
+            </p>
         </div>
         <div class="field">
+            <p class="bb">
             <label for="mensagem">Sua mensagem:</label>
             <textarea name="mensagem" id="mensagem" placeholder="Mensagem*" required></textarea>
+            </p>
         </div>
 
-        <input type="submit" name="acao" value="Enviar">
+       <p class="bb"><input type="submit" name="acao" value="Enviar"></p>
+       <p class="bb"><a href="index.html">BACK</a></p>
+
     </form>
 
 
