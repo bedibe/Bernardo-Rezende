@@ -3,25 +3,32 @@ body{
 }
 
 .btn {
-   font-family: Arial, Helvetica, sans-serif;
+   text-align: center;
+   font-family: italic;
    font-size: 13;
-   width: 165px;
-   height: 45px;
-   background-color:darkslategray;
+   background:rgba(255, 217, 0, 0.103);
    padding: 9px 50px;
-   border-style: dotted;
-   color: white;
+   border: 1px solid black;
+   border-radius: 30px ;
+   color: whitesmoke;
 
 }
 
 .bb{
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 30px;
+    background:rgba(255, 217, 0, 0.103) ;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 13;
-    width: 165px;
-    height: 45px;
-    background-color:darkslategray;
     padding: 9px 50px;
-    border-style:dotted ;
-    color: white;
+    color: black;
 }
 
+h1{
+    color: black;
+    border: 1px solid black;
+    border: radius 30px;
+    text-align: center;
+    background: rgba(255, 217, 0, 0.103);
+}
