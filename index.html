@@ -4,45 +4,99 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="description" content="Meu Primeiro Site">
-	  <meta name="keywords" content="primerio site, portifólio, projeto, desenvolvedor web">
-  	<meta name="author" content="Bernardo Rezende">
-    <title>Meu Portifólio</title>
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="icon" href="img/bdb.jpg">
-    
+    <meta name="viewport"content="width=device, initial-scale=1.0">
+   <link rel="stylesheet" href="/css/style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+   <title>Portifolio</title>
   </head>
   <body>
     <header>
-      <div class="container">
-        <div id="branding">
-          <h1><span class="highlight">BEM VINDO AO</span> MEU PRIMEIRO SITE</h1>
-        </div>
-        <nav>
+      <div class="interface">
+        <div class="logo">
+          <a href="">
+            <img src="img/logo.png" alt="logo do portifolio">
+          </a>
+        </div><!---logo-->
+        <nav class="menu-desktop">
           <ul>
-            <a href="trajetoria.html"><p class="bb">Trajetória</p></a>
-            <a href="hobbies.html"><p class="bb">Hobbies</p></a>
-            <a href="contato.html"><p class="bb">Contato</p></a>
-            <br>
+            <li><a href="">Inicio</a></li>
+            <li><a href="">Sobre mim</a></li>
+            <li><a href="">Conhecimentos</a></li>
+            <li><a href="">Projetos</a></li>
           </ul>
         </nav>
-      </div>
+
+        <div class="btn-contato">
+          <a href="">
+            <button>Contato</button>
+          </a>
+        </div>
+      </div><!--interface-->
     </header>
 
-    <section id="showcase">
-      <div class="container">
-        <h1>OLÁ, APRESENTO O MEU PRIMEIRO PROJETO/SITE COMO DESENVOLVEDOR WEB, SINTA-SE À VONTADE</h1>
-        <p class="bb">E nele está informações sobre mim, meus hobbies e interesses e um formulário para contato.</p>
-        <h2>
-          O que é desenvolvedor web?
-        </h2>
-        <p class="bb">
-          Afinal, um desenvolvedor web realiza o desenvolvimento de websites na internet. Ele é o responsável por toda a estrutura de um determinado site. Ou seja, planeja, constrói e dá manutenção para tudo que roda em uma plataforma web.
-        </p>
-        <p class="btn">
-          Feito Por: Bernardo Rezende
-        </p>
-      </div>
-    </section>
-    </body>
-</html>
+    
+    <main>
+      <section class="topo-do-site">
+        <div class="interface">
+          <div class="flex">
+            <div class="txt-topo-site">
+              <h1>Olá eu sou Bernardo Rezende.</h1>
+              <h3>Tenho 20 anos, moro na Pedra de Guaratiba,Rio de Janeiro.</h3>
+              <p>Sou formado em técnico de telecom nós de 2019 ao 2021, também tenho um curso de desenvolvimento web full stack, um curso disponibilizado pela prefeitura chamado programadores carioca que nele teve a parceria com a resilia e o senac.<br>
+                No momento  estou no segundo período na graduação de Ciência da Computação na instituição Estacio de Sá.<br>
+                Atualmente trabalho como Auxiliar de Suporte de TI(Helpdesk), porém já trabalhei como Auxiliar Técnico de Telecomunicações,<br>onde participei de um projeto de Infraestrutura de Rede com 144 pontos distribuídos em 3 andares do restaurante.
+                </p>
+            <div class="btn-contato">
+              <a href="">
+                <button>Entre em contato</button>
+              </a>
+            </div>
+            </div>
+            <div class="img-topo-site">
+              <img src="img/bdb.jpg" alt="minha foto">
+            </div>
+          </div>
+        </div>
+      </section>
+    
+      <section class="especiliadades">
+        <div class="interface">
+            <h2 class="titulo">Conhecimentos</h2>
+            <div class="flex">
+                <div class="especialidades-box">
+                    <img src="/img/html.png"></img>
+                    <h3>HTML</h3>
+                    <p>é uma linguagem de marcação utilizada na construção de páginas na Web. Documentos HTML podem ser interpretados por navegadores. A tecnologia é fruto da junção entre os padrões HyTime e SGML. HyTime é um padrão para a representação estruturada de hipermídia e conteúdo baseado em tempo.</p>
+                </div><!--especialidades-box-->
+
+                <div class="especialidades-box">
+                    <img src="/img/css.png"></img>
+                    <h3>CSS</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, nulla rem dolore inventore delectus at.</p>
+                </div><!--especialidades-box-->
+
+                <div class="especialidades-box">
+                    <img src="/img/js.png"></img>
+                    <h3>JAVASCRIPT</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, nulla rem dolore inventore delectus at.</p>
+                </div><!--especialidades-box-->
+
+                <div class="especialidades-box">
+                  <img src="/img/python.png"></img>
+                  <h3>PYTHON</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, nulla rem dolore inventore delectus at.</p>
+              </div><!--especialidades-box-->
+
+              <div class="especialidades-box">
+                <img src="/img/php.png"></img>
+                <h3>PHP</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, nulla rem dolore inventore delectus at.</p>
+            </div><!--especialidades-box-->
+
+            </div><!--flex-->
+        </div><!--interface-->
+    </section><!--especiliadades-->
+    </main>
+  </body>
